@@ -10,5 +10,5 @@ This is a simple public API for the HNG task.
 {
    "email": "yetkemsupper@gmail.com",
    "current_datetime": "2025-01-30T09:30:00Z",
-   "github_url": ""
+   "github_url": "https://github.com/Qazim-tec/HNGPublicAPI.git"
 }
