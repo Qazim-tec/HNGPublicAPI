@@ -12,9 +12,9 @@ namespace HngAPI.Controllers
         {
             return Ok(new
             {
-                email = "yetkemsupper@gmail.com", // Replace with your HNG email
+                email = "yetkemsupper@gmail.com", 
                 current_datetime = DateTime.UtcNow.ToString("o"), // ISO 8601 format
-                github_url = "https://github.com/Qazim-tec/HNGPublicAPI.git" // Replace with your GitHub repo
+                github_url = "https://github.com/Qazim-tec/HNGPublicAPI.git" 
             });
         }
     }
