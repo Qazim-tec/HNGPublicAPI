@@ -35,3 +35,4 @@ C:\Users\QAZIM\Desktop\TruthBlog\practical\HnGApi\HngAPI\obj\Debug\net8.0\HngAPI
 C:\Users\QAZIM\Desktop\TruthBlog\practical\HnGApi\HngAPI\obj\Debug\net8.0\HngAPI.genruntimeconfig.cache
 C:\Users\QAZIM\Desktop\TruthBlog\practical\HnGApi\HngAPI\obj\Debug\net8.0\ref\HngAPI.dll
 C:\Users\QAZIM\Desktop\TruthBlog\practical\HnGApi\HngAPI\obj\Debug\net8.0\HngAPI.sourcelink.json
+C:\Users\QAZIM\Desktop\TruthBlog\practical\HnGApi\HngAPI\bin\Debug\net8.0\Newtonsoft.Json.dll

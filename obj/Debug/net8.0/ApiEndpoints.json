@@ -2,7 +2,7 @@
   {
     "ContainingType": "HngAPI.Controllers.NumberClassificationController",
     "Method": "ClassifyNumber",
-    "RelativePath": "api/NumberClassification",
+    "RelativePath": "api/NumberClassification/classify-number",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
