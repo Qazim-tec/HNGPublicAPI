@@ -5,18 +5,6 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/HngApi": {
-      "get": {
-        "tags": [
-          "HngApi"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/NumberClassification": {
       "get": {
         "tags": [

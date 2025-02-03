@@ -9,7 +9,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddHttpClient("NumbersApi", client =>
 {
     client.BaseAddress = new Uri("http://numbersapi.com/");
-    client.Timeout = TimeSpan.FromSeconds(3);
+    client.Timeout = TimeSpan.FromSeconds(2);
 });
 
 // Configure CORS

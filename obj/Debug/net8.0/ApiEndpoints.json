@@ -1,15 +1,5 @@
 [
   {
-    "ContainingType": "HngAPI.Controllers.HngApiController",
-    "Method": "GetDetails",
-    "RelativePath": "api/HngApi",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "HngAPI.Controllers.NumberClassificationController",
     "Method": "ClassifyNumber",
     "RelativePath": "api/NumberClassification",
