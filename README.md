@@ -10,9 +10,7 @@ Parity Check: Identifies if the number is even or odd.
 
 Fun Fact Integration: Fetches a fun fact about the number from the Numbers API.
 
-API Endpoint
-Classify a Number
-Endpoint: GET /api/NumberClassification?number={number}
+
 
 Description: Classifies the given number and returns its properties along with a fun fact.
 
