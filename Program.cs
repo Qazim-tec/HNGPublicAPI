@@ -5,7 +5,14 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Enable CORS to allow access from anywhere
+// Configure HttpClient for NumbersAPI
+builder.Services.AddHttpClient("NumbersApi", client =>
+{
+    client.BaseAddress = new Uri("http://numbersapi.com/");
+    client.Timeout = TimeSpan.FromSeconds(3);
+});
+
+// Configure CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -18,7 +25,7 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment() || true) // Enable Swagger in all environments
 {
     app.UseSwagger();
@@ -27,11 +34,9 @@ if (app.Environment.IsDevelopment() || true) // Enable Swagger in all environmen
 
 app.UseHttpsRedirection();
 
-// Enable CORS (Make sure this comes BEFORE Authorization)
+// Middleware order matters!
 app.UseCors("AllowAll");
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();

@@ -1,18 +1,21 @@
-# HNG Public API
+Number Classification API
+This is a C# ASP.NET Core API that classifies a given number and returns its mathematical properties along with a fun fact fetched from the Numbers API.
 
-This is a simple public API for the HNG task.
+Features
+Number Classification: Determines if a number is prime, perfect, or an Armstrong number.
 
-##  API Endpoint
-- **GET /** → Returns email, current datetime, and GitHub repo link.
+Digit Sum Calculation: Calculates the sum of the digits of the number.
 
-## Hire C# Developers
-If you're looking to hire C# developers, visit [HNG C# Developers](https://hng.tech/hire/csharp-developers).
+Parity Check: Identifies if the number is even or odd.
 
+Fun Fact Integration: Fetches a fun fact about the number from the Numbers API.
 
-##  Example Response
-```json
-{
-   "email": "yetkemsupper@gmail.com",
-   "current_datetime": "2025-01-30T09:30:00Z",
-   "github_url": "https://github.com/Qazim-tec/HNGPublicAPI.git"
-}
+API Endpoint
+Classify a Number
+Endpoint: GET /api/NumberClassification?number={number}
+
+Description: Classifies the given number and returns its properties along with a fun fact.
+
+Parameters:
+
+number (required): The number to classify. Must be a valid integer.

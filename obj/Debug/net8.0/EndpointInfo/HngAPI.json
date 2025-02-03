@@ -16,6 +16,27 @@
           }
         }
       }
+    },
+    "/api/NumberClassification": {
+      "get": {
+        "tags": [
+          "NumberClassification"
+        ],
+        "parameters": [
+          {
+            "name": "number",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": { }
